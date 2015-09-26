@@ -1,0 +1,5 @@
+// Функция для получения размера шрифта в относительных единицах
+@function flex-text($font-size){
+  @return ($font-size / $font-base) * 1em;
+}
+

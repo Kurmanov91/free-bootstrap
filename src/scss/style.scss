@@ -1,0 +1,20 @@
+// Переменные
+@import "variables";
+
+// Шрифты
+@import "fonts";
+
+// Миксины
+@import "mixins";
+
+// Адаптивная сетка
+@import "bootstrap";
+
+// main style
+
+
+// Стили для слайдера
+@import "block/slider";
+@import "carousel/owl.carousel";
+@import "carousel/owl.theme";
+@import "carousel/owl.transitions";
