@@ -1,2 +1,4 @@
 .git
+.sass-cache
+src/style.css.map
 node_modules
