@@ -1,0 +1,39 @@
+.main-nav {
+  background-color: $black;
+  border-radius: 0 0 7px 7px;
+  padding: 5px 50px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+    border-right: 1px solid $gray-dark;
+    margin: 15px 0;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  a {
+    display: block;
+    text-transform: uppercase;
+    padding: 0 15px;
+    text-decoration: none;
+    color: $white;
+    font: flex-text($font-middle) $opensans-bold;
+
+    &:hover {
+      color: $red;
+    }
+  }
+
+  &--active a {
+    color: $red;
+  }
+}

@@ -1,0 +1,65 @@
+.capabilities {
+
+  &__more {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    padding-right: 10px;
+    color: $white;
+    font: bold flex-text($font-middle) $font-default;
+
+    &:hover {
+      color: $white;
+      text-decoration: underline;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 5px;
+      right: 0;
+      width: 6px;
+      height: 7px;
+      background: url("img/before-li.png") no-repeat center center;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    float: left;
+    width: 48%;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    @media(max-width: 991px) {
+      width: 100%;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 7px;
+      left: 0;
+      width: 6px;
+      height: 7px;
+      background: url("img/before-li.png") no-repeat center center;
+    }
+  }
+
+  li > a {
+    text-decoration: underline;
+    color: $white;
+    font: flex-text($font-small) $font-default;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

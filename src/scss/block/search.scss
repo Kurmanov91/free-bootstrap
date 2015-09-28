@@ -1,0 +1,32 @@
+.search {
+  position: relative;
+  padding-top: 10px;
+
+  input[type="text"] {
+    outline: none;
+    border: none;
+    padding: 7px 30px 7px 7px;
+    background: linear-gradient(to bottom, $black 0%, lighten($black, 15%) 100%);
+    border-radius: 5px;
+    border-bottom: 1px solid $gray-dark;
+    box-sizing: border-box;
+    width: 100%;
+    color: $white;
+
+    &:focus {
+      box-shadow: 0 0 10px $red;
+    }
+  }
+
+  button[type="submit"] {
+    outline: none;
+    background: none;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    color: $white;
+    top: 17px;
+    right: 0;
+    font-size: flex-text($font-base);
+  }
+}

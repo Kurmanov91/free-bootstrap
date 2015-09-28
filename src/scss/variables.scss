@@ -1,4 +1,5 @@
 // Main color
+$black-add: #1e1e20;
 $black: #111;
 $white: #fff;
 $red: #cf3046;
@@ -13,7 +14,7 @@ $font-middle: 14px;
 $font-small: 12px;
 
 // font family
-$font_default: Arial, sans-serif;
-$opensans_bold: "Open Sans Bold", $font_default;
-$opensans_semibold: "Open Sans Semibold", $font_default;
-$opensans_regular: "Open Sans Regular", $font_default;
+$font-default: Arial, sans-serif;
+$opensans-bold: "Open Sans Bold", $font_default;
+$opensans-semibold: "Open Sans Semibold", $font_default;
+$opensans-regular: "Open Sans Regular", $font_default;

@@ -1,0 +1,38 @@
+.subscribe {
+  background: lighten($black-add, 25%) url("img/light-bg.jpg");
+  border-radius: 5px;
+  padding: 30px 25px;
+
+  h2 {
+    margin: 0 0 15px 0;
+    color: $white;
+    font-family: $opensans-bold;
+    font-size: flex-text($font-middle + 4);
+  }
+
+  input[type="email"] {
+    outline: none;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    background-color: $white;
+    padding: 7px;
+    color: $black-add;
+    font: flex-text($font-middle) $font-default;
+    width: 60%;
+  }
+
+  button[type="submit"] {
+    outline: none;
+    border: none;
+    font: flex-text($font-middle) $font-default;
+    color: $white;
+    background-color: $red;
+    border-radius: 0 3px 3px 0;
+    padding: 7px;
+    margin-left: -4px;
+
+    &:hover {
+      background-color: darken($red, 5%);
+    }
+  }
+}

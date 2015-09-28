@@ -11,6 +11,31 @@
 @import "bootstrap";
 
 // main style
+@import "block/body";
+@import "block/main-header";
+@import "block/top-bar";
+@import "block/logo";
+@import "block/white-text";
+@import "block/contacts";
+@import "block/search";
+@import "block/main-nav";
+@import "block/social";
+@import "block/main-content";
+@import "block/post-item";
+@import "block/big-text";
+@import "block/inner-title";
+@import "block/big-post";
+@import "block/date";
+@import "block/latest-news";
+@import "block/sub-head";
+@import "block/capabilities";
+@import "block/testimonials";
+@import "block/author";
+@import "block/text-bold";
+@import "block/main-footer";
+@import "block/second-menu";
+@import "block/copyright";
+@import "block/subscribe";
 
 
 // Стили для слайдера
@@ -18,3 +43,7 @@
 @import "carousel/owl.carousel";
 @import "carousel/owl.theme";
 @import "carousel/owl.transitions";
+
+
+// Стили для кнопок
+@import "buttons/btn";

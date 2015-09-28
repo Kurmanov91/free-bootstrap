@@ -1,0 +1,11 @@
+.author {
+  text-decoration: none;
+  display: inline-block;
+  color: $white;
+  font: flex-text($font-middle) $font-default;
+
+  &:hover {
+    text-decoration: none;
+    color: $red;
+  }
+}
