@@ -1,0 +1,34 @@
+.offer {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 7px;
+      left: 0;
+      width: 6px;
+      height: 7px;
+      background: url("img/before-li.png") no-repeat center center;
+    }
+  }
+
+  li > a {
+    text-decoration: underline;
+    color: $white;
+    font: flex-text($font-small) $font-default;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

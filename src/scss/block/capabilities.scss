@@ -1,5 +1,17 @@
 .capabilities {
 
+  &--custom {
+    ul li {
+      width: 24%;
+    }
+  }
+
+  p {
+    margin: 15px 0;
+    line-height: 1.5;
+    font: flex-text($font-small) $font-default;
+  }
+
   &__more {
     display: inline-block;
     text-decoration: none;
@@ -61,5 +73,12 @@
     &:hover {
       text-decoration: none;
     }
+  }
+
+  img {
+    max-width: 25%;
+    height: auto;
+    display: inline-block;
+    margin: 0 20px 20px 0;
   }
 }

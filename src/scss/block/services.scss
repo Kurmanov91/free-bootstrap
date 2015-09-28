@@ -1,0 +1,39 @@
+.services {
+
+  &__text {
+    overflow: hidden;
+  }
+
+  &__item {
+    margin-bottom: 20px;
+
+    img {
+      float: left;
+      max-width: 30%;
+      height: auto;
+      display: block;
+      margin: 0 15px 15px 0;
+    }
+
+    h3 {
+      font: bold flex-text($font-small + 1) $font-default;
+      margin: 0 0 20px 0;
+    }
+
+    p {
+      font: flex-text($font-small) $font-default;
+      line-height: 1.5;
+      display: inline;
+    }
+
+    a {
+      color: $gray-dark;
+      text-decoration: none;
+
+      &:hover {
+        color: $red;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.design {
+
+  h3 {
+    margin: 0 0 20px 0;
+    font: bold flex-text($font-small + 1) $font-default;
+  }
+
+  p {
+    font: flex-text($font-small) $font-default;
+    margin: 10px 0 10px;
+  }
+
+  img {
+    float: left;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 15px 15px 0;
+  }
+}
